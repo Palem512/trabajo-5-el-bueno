@@ -23,4 +23,4 @@ Accede al sitio en vivo: [Ver recetario](https://tu-usuario.github.io/TP5-receta
 - Comentarios en el código para facilitar el mantenimiento.
 
 ## 👨‍🍳 Autor
-Tu Nombre - 6°G - Laboratorio de Programación
+Ezequiel Ozan - 6°G - Laboratorio de Programación
