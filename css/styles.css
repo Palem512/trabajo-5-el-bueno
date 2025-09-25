@@ -1,0 +1,103 @@
+/* === Estilos generales === */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+}
+
+header {
+  background-color: #ff7043;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #000;
+}
+nav a:visited {
+  color: #fce4ec;
+}
+nav a:active {
+  color: yellow;
+}
+
+section ul {
+  list-style-type: square;
+  padding: 20px;
+}
+
+.destacadas {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.destacadas article {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+.destacadas img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.boton-volver {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #ff7043;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.boton-volver:hover {
+  background-color: #e64a19;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  width: 60%;
+  margin: auto;
+}
+
+button {
+  padding: 10px;
+  background-color: #ff7043;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #e64a19;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Comentarios:
+- Flexbox en sección destacadas.
+- Enlaces con estados hover, visited, active.
+- Botón volver con estilo especial.
+*/
